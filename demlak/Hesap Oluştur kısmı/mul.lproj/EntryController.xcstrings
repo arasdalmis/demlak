@@ -1,0 +1,102 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "96V-sW-TCu.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"96V-sW-TCu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "dE2-K8-6MT.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Gizlilik Politikası\"; ObjectID = \"dE2-K8-6MT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Gizlilik Politikası"
+          }
+        }
+      }
+    },
+    "dE2-K8-6MT.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"dE2-K8-6MT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "FXZ-77-zfo.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"FXZ-77-zfo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "naf-Ac-c9d.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Giriş yap\"; ObjectID = \"naf-Ac-c9d\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Giriş yap"
+          }
+        }
+      }
+    },
+    "naf-Ac-c9d.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"naf-Ac-c9d\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "ovo-lp-vn8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Ya da\"; ObjectID = \"ovo-lp-vn8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ya da"
+          }
+        }
+      }
+    },
+    "Qgg-uT-1kN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"demlak\"; ObjectID = \"Qgg-uT-1kN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "demlak"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

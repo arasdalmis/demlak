@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072814057E5920039F504B62 /* Pods_demlak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3814564135EF64154F69A542 /* Pods_demlak.framework */; };
+		4C579D8033F16F7AC4DB9825 /* Pods_demlakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD4DB4A2E823D1A2E237AF0 /* Pods_demlakTests.framework */; };
+		775A0D7A2BB5CA0A007BF088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0D792BB5CA0A007BF088 /* AppDelegate.swift */; };
+		775A0D7C2BB5CA0A007BF088 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0D7B2BB5CA0A007BF088 /* SceneDelegate.swift */; };
+		775A0D7E2BB5CA0A007BF088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0D7D2BB5CA0A007BF088 /* ViewController.swift */; };
+		775A0D832BB5CA0B007BF088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775A0D822BB5CA0B007BF088 /* Assets.xcassets */; };
+		775A0D862BB5CA0B007BF088 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 775A0D852BB5CA0B007BF088 /* Base */; };
+		775A0D912BB5CA0B007BF088 /* demlakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0D902BB5CA0B007BF088 /* demlakTests.swift */; };
+		775A0D9B2BB5CA0B007BF088 /* demlakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0D9A2BB5CA0B007BF088 /* demlakUITests.swift */; };
+		775A0D9D2BB5CA0B007BF088 /* demlakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0D9C2BB5CA0B007BF088 /* demlakUITestsLaunchTests.swift */; };
+		775A0DAD2BB5CABB007BF088 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DAA2BB5CABB007BF088 /* EntryController.swift */; };
+		775A0DB02BB5CF69007BF088 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DAF2BB5CF69007BF088 /* LoginScreen.xib */; };
+		775A0DB12BB5CF69007BF088 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DAE2BB5CF69007BF088 /* LoginScreen.swift */; };
+		775A0DB42BB5D21B007BF088 /* EntryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DB32BB5D21B007BF088 /* EntryController.xib */; };
+		775A0DBA2BB612CB007BF088 /* AccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DB92BB612CB007BF088 /* AccountController.xib */; };
+		775A0DBB2BB612CB007BF088 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DB82BB612CB007BF088 /* AccountController.swift */; };
+		775A0DBE2BB61324007BF088 /* NumberApprove.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DBD2BB61324007BF088 /* NumberApprove.xib */; };
+		775A0DBF2BB61324007BF088 /* NumberApprove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DBC2BB61324007BF088 /* NumberApprove.swift */; };
+		775A0DC22BB6133A007BF088 /* CreatePassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DC12BB6133A007BF088 /* CreatePassword.xib */; };
+		775A0DC32BB6133A007BF088 /* CreatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DC02BB6133A007BF088 /* CreatePassword.swift */; };
+		775A0DC62BB613B5007BF088 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DC52BB613B5007BF088 /* AppTabBarController.swift */; };
+		775A0DC82BB6937D007BF088 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DC72BB6937D007BF088 /* GoogleService-Info.plist */; };
+		775A0DCC2BB73894007BF088 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DCA2BB73894007BF088 /* DiscoverController.swift */; };
+		775A0DCD2BB73894007BF088 /* DiscoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DCB2BB73894007BF088 /* DiscoverController.xib */; };
+		775A0DD02BB738B3007BF088 /* SharingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DCE2BB738B3007BF088 /* SharingController.swift */; };
+		775A0DD12BB738B3007BF088 /* SharingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DCF2BB738B3007BF088 /* SharingController.xib */; };
+		775A0DD42BB73903007BF088 /* AdsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DD22BB73903007BF088 /* AdsController.swift */; };
+		775A0DD52BB73903007BF088 /* AdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DD32BB73903007BF088 /* AdsController.xib */; };
+		775A0DDE2BB73969007BF088 /* MyProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DDC2BB73969007BF088 /* MyProfileController.swift */; };
+		775A0DDF2BB73969007BF088 /* MyProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DDD2BB73969007BF088 /* MyProfileController.xib */; };
+		775A0DE22BB7398C007BF088 /* SearchingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DE02BB7398C007BF088 /* SearchingController.swift */; };
+		775A0DE32BB7398C007BF088 /* SearchingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DE12BB7398C007BF088 /* SearchingController.xib */; };
+		775A0DEA2BB8451A007BF088 /* ForgettingThePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DE82BB8451A007BF088 /* ForgettingThePassword.swift */; };
+		775A0DEB2BB8451A007BF088 /* ForgettingThePassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DE92BB8451A007BF088 /* ForgettingThePassword.xib */; };
+		775A0DEE2BB84F03007BF088 /* PasswordApproval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DEC2BB84F03007BF088 /* PasswordApproval.swift */; };
+		775A0DEF2BB84F03007BF088 /* PasswordApproval.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DED2BB84F03007BF088 /* PasswordApproval.xib */; };
+		775A0DF22BB852D6007BF088 /* CreateAPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A0DF02BB852D5007BF088 /* CreateAPassword.swift */; };
+		775A0DF32BB852D6007BF088 /* CreateAPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775A0DF12BB852D5007BF088 /* CreateAPassword.xib */; };
+		FF71BE9E93E9956D691D1321 /* Pods_demlak_demlakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44B745AE9900B213F396F52 /* Pods_demlak_demlakUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775A0D8D2BB5CA0B007BF088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775A0D6E2BB5CA0A007BF088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775A0D752BB5CA0A007BF088;
+			remoteInfo = demlak;
+		};
+		775A0D972BB5CA0B007BF088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775A0D6E2BB5CA0A007BF088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775A0D752BB5CA0A007BF088;
+			remoteInfo = demlak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048D4E0A7AC0970B7CFAE02B /* Pods-demlak-demlakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demlak-demlakUITests.debug.xcconfig"; path = "Target Support Files/Pods-demlak-demlakUITests/Pods-demlak-demlakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AD4DB4A2E823D1A2E237AF0 /* Pods_demlakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demlakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A10151FB0913066895F4281 /* Pods-demlak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demlak.debug.xcconfig"; path = "Target Support Files/Pods-demlak/Pods-demlak.debug.xcconfig"; sourceTree = "<group>"; };
+		3814564135EF64154F69A542 /* Pods_demlak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demlak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633504C8736B539E8DC6C4A7 /* Pods-demlak-demlakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demlak-demlakUITests.release.xcconfig"; path = "Target Support Files/Pods-demlak-demlakUITests/Pods-demlak-demlakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		749B3650833C3FC62913DBC7 /* Pods-demlak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demlak.release.xcconfig"; path = "Target Support Files/Pods-demlak/Pods-demlak.release.xcconfig"; sourceTree = "<group>"; };
+		775A0D762BB5CA0A007BF088 /* demlak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demlak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775A0D792BB5CA0A007BF088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775A0D7B2BB5CA0A007BF088 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		775A0D7D2BB5CA0A007BF088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775A0D822BB5CA0B007BF088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775A0D852BB5CA0B007BF088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775A0D872BB5CA0B007BF088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775A0D8C2BB5CA0B007BF088 /* demlakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demlakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775A0D902BB5CA0B007BF088 /* demlakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demlakTests.swift; sourceTree = "<group>"; };
+		775A0D962BB5CA0B007BF088 /* demlakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demlakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775A0D9A2BB5CA0B007BF088 /* demlakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demlakUITests.swift; sourceTree = "<group>"; };
+		775A0D9C2BB5CA0B007BF088 /* demlakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demlakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		775A0DAA2BB5CABB007BF088 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		775A0DAE2BB5CF69007BF088 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		775A0DAF2BB5CF69007BF088 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		775A0DB22BB5D21B007BF088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/EntryController.xib; sourceTree = "<group>"; };
+		775A0DB52BB5D21B007BF088 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/EntryController.xcstrings; sourceTree = "<group>"; };
+		775A0DB82BB612CB007BF088 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		775A0DB92BB612CB007BF088 /* AccountController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountController.xib; sourceTree = "<group>"; };
+		775A0DBC2BB61324007BF088 /* NumberApprove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberApprove.swift; sourceTree = "<group>"; };
+		775A0DBD2BB61324007BF088 /* NumberApprove.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberApprove.xib; sourceTree = "<group>"; };
+		775A0DC02BB6133A007BF088 /* CreatePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassword.swift; sourceTree = "<group>"; };
+		775A0DC12BB6133A007BF088 /* CreatePassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePassword.xib; sourceTree = "<group>"; };
+		775A0DC52BB613B5007BF088 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		775A0DC72BB6937D007BF088 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		775A0DCA2BB73894007BF088 /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		775A0DCB2BB73894007BF088 /* DiscoverController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverController.xib; sourceTree = "<group>"; };
+		775A0DCE2BB738B3007BF088 /* SharingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingController.swift; sourceTree = "<group>"; };
+		775A0DCF2BB738B3007BF088 /* SharingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharingController.xib; sourceTree = "<group>"; };
+		775A0DD22BB73903007BF088 /* AdsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsController.swift; sourceTree = "<group>"; };
+		775A0DD32BB73903007BF088 /* AdsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsController.xib; sourceTree = "<group>"; };
+		775A0DDC2BB73969007BF088 /* MyProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileController.swift; sourceTree = "<group>"; };
+		775A0DDD2BB73969007BF088 /* MyProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyProfileController.xib; sourceTree = "<group>"; };
+		775A0DE02BB7398C007BF088 /* SearchingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingController.swift; sourceTree = "<group>"; };
+		775A0DE12BB7398C007BF088 /* SearchingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchingController.xib; sourceTree = "<group>"; };
+		775A0DE82BB8451A007BF088 /* ForgettingThePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgettingThePassword.swift; sourceTree = "<group>"; };
+		775A0DE92BB8451A007BF088 /* ForgettingThePassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgettingThePassword.xib; sourceTree = "<group>"; };
+		775A0DEC2BB84F03007BF088 /* PasswordApproval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordApproval.swift; sourceTree = "<group>"; };
+		775A0DED2BB84F03007BF088 /* PasswordApproval.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordApproval.xib; sourceTree = "<group>"; };
+		775A0DF02BB852D5007BF088 /* CreateAPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAPassword.swift; sourceTree = "<group>"; };
+		775A0DF12BB852D5007BF088 /* CreateAPassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAPassword.xib; sourceTree = "<group>"; };
+		C174C279393C03E0F88937E7 /* Pods-demlakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demlakTests.release.xcconfig"; path = "Target Support Files/Pods-demlakTests/Pods-demlakTests.release.xcconfig"; sourceTree = "<group>"; };
+		C44B745AE9900B213F396F52 /* Pods_demlak_demlakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demlak_demlakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CB71450962241BF2BDCC39 /* Pods-demlakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demlakTests.debug.xcconfig"; path = "Target Support Files/Pods-demlakTests/Pods-demlakTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775A0D732BB5CA0A007BF088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072814057E5920039F504B62 /* Pods_demlak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775A0D892BB5CA0B007BF088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C579D8033F16F7AC4DB9825 /* Pods_demlakTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775A0D932BB5CA0B007BF088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF71BE9E93E9956D691D1321 /* Pods_demlak_demlakUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA0D1D6FBFDFC422AFD220D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A10151FB0913066895F4281 /* Pods-demlak.debug.xcconfig */,
+				749B3650833C3FC62913DBC7 /* Pods-demlak.release.xcconfig */,
+				048D4E0A7AC0970B7CFAE02B /* Pods-demlak-demlakUITests.debug.xcconfig */,
+				633504C8736B539E8DC6C4A7 /* Pods-demlak-demlakUITests.release.xcconfig */,
+				D7CB71450962241BF2BDCC39 /* Pods-demlakTests.debug.xcconfig */,
+				C174C279393C03E0F88937E7 /* Pods-demlakTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		775A0D6D2BB5CA0A007BF088 = {
+			isa = PBXGroup;
+			children = (
+				775A0D782BB5CA0A007BF088 /* demlak */,
+				775A0D8F2BB5CA0B007BF088 /* demlakTests */,
+				775A0D992BB5CA0B007BF088 /* demlakUITests */,
+				775A0D772BB5CA0A007BF088 /* Products */,
+				4AA0D1D6FBFDFC422AFD220D /* Pods */,
+				A5839C75C19795A6233C7476 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		775A0D772BB5CA0A007BF088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775A0D762BB5CA0A007BF088 /* demlak.app */,
+				775A0D8C2BB5CA0B007BF088 /* demlakTests.xctest */,
+				775A0D962BB5CA0B007BF088 /* demlakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775A0D782BB5CA0A007BF088 /* demlak */ = {
+			isa = PBXGroup;
+			children = (
+				775A0DA92BB5CA3F007BF088 /* Giriş */,
+				775A0D792BB5CA0A007BF088 /* AppDelegate.swift */,
+				775A0D7B2BB5CA0A007BF088 /* SceneDelegate.swift */,
+				775A0D7D2BB5CA0A007BF088 /* ViewController.swift */,
+				775A0D822BB5CA0B007BF088 /* Assets.xcassets */,
+				775A0D842BB5CA0B007BF088 /* LaunchScreen.storyboard */,
+				775A0D872BB5CA0B007BF088 /* Info.plist */,
+				775A0DC72BB6937D007BF088 /* GoogleService-Info.plist */,
+			);
+			path = demlak;
+			sourceTree = "<group>";
+		};
+		775A0D8F2BB5CA0B007BF088 /* demlakTests */ = {
+			isa = PBXGroup;
+			children = (
+				775A0D902BB5CA0B007BF088 /* demlakTests.swift */,
+			);
+			path = demlakTests;
+			sourceTree = "<group>";
+		};
+		775A0D992BB5CA0B007BF088 /* demlakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				775A0D9A2BB5CA0B007BF088 /* demlakUITests.swift */,
+				775A0D9C2BB5CA0B007BF088 /* demlakUITestsLaunchTests.swift */,
+			);
+			path = demlakUITests;
+			sourceTree = "<group>";
+		};
+		775A0DA92BB5CA3F007BF088 /* Giriş */ = {
+			isa = PBXGroup;
+			children = (
+				775A0DB32BB5D21B007BF088 /* EntryController.xib */,
+				775A0DAA2BB5CABB007BF088 /* EntryController.swift */,
+				775A0DAE2BB5CF69007BF088 /* LoginScreen.swift */,
+				775A0DAF2BB5CF69007BF088 /* LoginScreen.xib */,
+				775A0DE62BB843CA007BF088 /* Kullancı kayıt oluşturma */,
+				775A0DC42BB61398007BF088 /* TabBarController */,
+			);
+			name = "Giriş";
+			path = "Hesap Oluştur kısmı";
+			sourceTree = "<group>";
+		};
+		775A0DC42BB61398007BF088 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				775A0DC52BB613B5007BF088 /* AppTabBarController.swift */,
+				775A0DCA2BB73894007BF088 /* DiscoverController.swift */,
+				775A0DCB2BB73894007BF088 /* DiscoverController.xib */,
+				775A0DD22BB73903007BF088 /* AdsController.swift */,
+				775A0DD32BB73903007BF088 /* AdsController.xib */,
+				775A0DCE2BB738B3007BF088 /* SharingController.swift */,
+				775A0DCF2BB738B3007BF088 /* SharingController.xib */,
+				775A0DE02BB7398C007BF088 /* SearchingController.swift */,
+				775A0DE12BB7398C007BF088 /* SearchingController.xib */,
+				775A0DDC2BB73969007BF088 /* MyProfileController.swift */,
+				775A0DDD2BB73969007BF088 /* MyProfileController.xib */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		775A0DE62BB843CA007BF088 /* Kullancı kayıt oluşturma */ = {
+			isa = PBXGroup;
+			children = (
+				775A0DE72BB844EC007BF088 /* Şifre Unuttum */,
+				775A0DB82BB612CB007BF088 /* AccountController.swift */,
+				775A0DB92BB612CB007BF088 /* AccountController.xib */,
+				775A0DBC2BB61324007BF088 /* NumberApprove.swift */,
+				775A0DBD2BB61324007BF088 /* NumberApprove.xib */,
+				775A0DC02BB6133A007BF088 /* CreatePassword.swift */,
+				775A0DC12BB6133A007BF088 /* CreatePassword.xib */,
+			);
+			name = "Kullancı kayıt oluşturma";
+			path = "Kullancı kayıt oluşturma";
+			sourceTree = "<group>";
+		};
+		775A0DE72BB844EC007BF088 /* Şifre Unuttum */ = {
+			isa = PBXGroup;
+			children = (
+				775A0DE82BB8451A007BF088 /* ForgettingThePassword.swift */,
+				775A0DE92BB8451A007BF088 /* ForgettingThePassword.xib */,
+				775A0DEC2BB84F03007BF088 /* PasswordApproval.swift */,
+				775A0DED2BB84F03007BF088 /* PasswordApproval.xib */,
+				775A0DF02BB852D5007BF088 /* CreateAPassword.swift */,
+				775A0DF12BB852D5007BF088 /* CreateAPassword.xib */,
+			);
+			name = "Şifre Unuttum";
+			path = "Şifre Unuttum";
+			sourceTree = "<group>";
+		};
+		A5839C75C19795A6233C7476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3814564135EF64154F69A542 /* Pods_demlak.framework */,
+				C44B745AE9900B213F396F52 /* Pods_demlak_demlakUITests.framework */,
+				0AD4DB4A2E823D1A2E237AF0 /* Pods_demlakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775A0D752BB5CA0A007BF088 /* demlak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775A0DA02BB5CA0B007BF088 /* Build configuration list for PBXNativeTarget "demlak" */;
+			buildPhases = (
+				6F471923816A43625B9725A0 /* [CP] Check Pods Manifest.lock */,
+				775A0D722BB5CA0A007BF088 /* Sources */,
+				775A0D732BB5CA0A007BF088 /* Frameworks */,
+				775A0D742BB5CA0A007BF088 /* Resources */,
+				8C2C9EE100BC64DD73C8DA21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demlak;
+			productName = demlak;
+			productReference = 775A0D762BB5CA0A007BF088 /* demlak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775A0D8B2BB5CA0B007BF088 /* demlakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775A0DA32BB5CA0B007BF088 /* Build configuration list for PBXNativeTarget "demlakTests" */;
+			buildPhases = (
+				3D74967CE4A60EA8625A867B /* [CP] Check Pods Manifest.lock */,
+				775A0D882BB5CA0B007BF088 /* Sources */,
+				775A0D892BB5CA0B007BF088 /* Frameworks */,
+				775A0D8A2BB5CA0B007BF088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775A0D8E2BB5CA0B007BF088 /* PBXTargetDependency */,
+			);
+			name = demlakTests;
+			productName = demlakTests;
+			productReference = 775A0D8C2BB5CA0B007BF088 /* demlakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775A0D952BB5CA0B007BF088 /* demlakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775A0DA62BB5CA0B007BF088 /* Build configuration list for PBXNativeTarget "demlakUITests" */;
+			buildPhases = (
+				CAED23B5032E9AD73F302573 /* [CP] Check Pods Manifest.lock */,
+				775A0D922BB5CA0B007BF088 /* Sources */,
+				775A0D932BB5CA0B007BF088 /* Frameworks */,
+				775A0D942BB5CA0B007BF088 /* Resources */,
+				B5FA70B5F10FD205E8660991 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775A0D982BB5CA0B007BF088 /* PBXTargetDependency */,
+			);
+			name = demlakUITests;
+			productName = demlakUITests;
+			productReference = 775A0D962BB5CA0B007BF088 /* demlakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775A0D6E2BB5CA0A007BF088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					775A0D752BB5CA0A007BF088 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					775A0D8B2BB5CA0B007BF088 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 775A0D752BB5CA0A007BF088;
+					};
+					775A0D952BB5CA0B007BF088 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 775A0D752BB5CA0A007BF088;
+					};
+				};
+			};
+			buildConfigurationList = 775A0D712BB5CA0A007BF088 /* Build configuration list for PBXProject "demlak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775A0D6D2BB5CA0A007BF088;
+			productRefGroup = 775A0D772BB5CA0A007BF088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775A0D752BB5CA0A007BF088 /* demlak */,
+				775A0D8B2BB5CA0B007BF088 /* demlakTests */,
+				775A0D952BB5CA0B007BF088 /* demlakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775A0D742BB5CA0A007BF088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A0DD52BB73903007BF088 /* AdsController.xib in Resources */,
+				775A0DEB2BB8451A007BF088 /* ForgettingThePassword.xib in Resources */,
+				775A0D832BB5CA0B007BF088 /* Assets.xcassets in Resources */,
+				775A0D862BB5CA0B007BF088 /* Base in Resources */,
+				775A0DC82BB6937D007BF088 /* GoogleService-Info.plist in Resources */,
+				775A0DEF2BB84F03007BF088 /* PasswordApproval.xib in Resources */,
+				775A0DCD2BB73894007BF088 /* DiscoverController.xib in Resources */,
+				775A0DE32BB7398C007BF088 /* SearchingController.xib in Resources */,
+				775A0DC22BB6133A007BF088 /* CreatePassword.xib in Resources */,
+				775A0DBE2BB61324007BF088 /* NumberApprove.xib in Resources */,
+				775A0DDF2BB73969007BF088 /* MyProfileController.xib in Resources */,
+				775A0DBA2BB612CB007BF088 /* AccountController.xib in Resources */,
+				775A0DF32BB852D6007BF088 /* CreateAPassword.xib in Resources */,
+				775A0DB02BB5CF69007BF088 /* LoginScreen.xib in Resources */,
+				775A0DD12BB738B3007BF088 /* SharingController.xib in Resources */,
+				775A0DB42BB5D21B007BF088 /* EntryController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775A0D8A2BB5CA0B007BF088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775A0D942BB5CA0B007BF088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D74967CE4A60EA8625A867B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demlakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F471923816A43625B9725A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demlak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2C9EE100BC64DD73C8DA21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demlak/Pods-demlak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demlak/Pods-demlak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demlak/Pods-demlak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5FA70B5F10FD205E8660991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demlak-demlakUITests/Pods-demlak-demlakUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demlak-demlakUITests/Pods-demlak-demlakUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demlak-demlakUITests/Pods-demlak-demlakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAED23B5032E9AD73F302573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demlak-demlakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775A0D722BB5CA0A007BF088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A0DDE2BB73969007BF088 /* MyProfileController.swift in Sources */,
+				775A0DCC2BB73894007BF088 /* DiscoverController.swift in Sources */,
+				775A0DE22BB7398C007BF088 /* SearchingController.swift in Sources */,
+				775A0DD02BB738B3007BF088 /* SharingController.swift in Sources */,
+				775A0DD42BB73903007BF088 /* AdsController.swift in Sources */,
+				775A0D7E2BB5CA0A007BF088 /* ViewController.swift in Sources */,
+				775A0D7A2BB5CA0A007BF088 /* AppDelegate.swift in Sources */,
+				775A0DAD2BB5CABB007BF088 /* EntryController.swift in Sources */,
+				775A0DBB2BB612CB007BF088 /* AccountController.swift in Sources */,
+				775A0DEE2BB84F03007BF088 /* PasswordApproval.swift in Sources */,
+				775A0D7C2BB5CA0A007BF088 /* SceneDelegate.swift in Sources */,
+				775A0DB12BB5CF69007BF088 /* LoginScreen.swift in Sources */,
+				775A0DEA2BB8451A007BF088 /* ForgettingThePassword.swift in Sources */,
+				775A0DC62BB613B5007BF088 /* AppTabBarController.swift in Sources */,
+				775A0DF22BB852D6007BF088 /* CreateAPassword.swift in Sources */,
+				775A0DC32BB6133A007BF088 /* CreatePassword.swift in Sources */,
+				775A0DBF2BB61324007BF088 /* NumberApprove.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775A0D882BB5CA0B007BF088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A0D912BB5CA0B007BF088 /* demlakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775A0D922BB5CA0B007BF088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A0D9D2BB5CA0B007BF088 /* demlakUITestsLaunchTests.swift in Sources */,
+				775A0D9B2BB5CA0B007BF088 /* demlakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775A0D8E2BB5CA0B007BF088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775A0D752BB5CA0A007BF088 /* demlak */;
+			targetProxy = 775A0D8D2BB5CA0B007BF088 /* PBXContainerItemProxy */;
+		};
+		775A0D982BB5CA0B007BF088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775A0D752BB5CA0A007BF088 /* demlak */;
+			targetProxy = 775A0D972BB5CA0B007BF088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775A0D842BB5CA0B007BF088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775A0D852BB5CA0B007BF088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		775A0DB32BB5D21B007BF088 /* EntryController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775A0DB22BB5D21B007BF088 /* Base */,
+				775A0DB52BB5D21B007BF088 /* mul */,
+			);
+			name = EntryController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775A0D9E2BB5CA0B007BF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775A0D9F2BB5CA0B007BF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775A0DA12BB5CA0B007BF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A10151FB0913066895F4281 /* Pods-demlak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = demlak/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davutdalmis.demlak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775A0DA22BB5CA0B007BF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749B3650833C3FC62913DBC7 /* Pods-demlak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = demlak/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davutdalmis.demlak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		775A0DA42BB5CA0B007BF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CB71450962241BF2BDCC39 /* Pods-demlakTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davutdalmis.demlakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demlak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/demlak";
+			};
+			name = Debug;
+		};
+		775A0DA52BB5CA0B007BF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C174C279393C03E0F88937E7 /* Pods-demlakTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davutdalmis.demlakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demlak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/demlak";
+			};
+			name = Release;
+		};
+		775A0DA72BB5CA0B007BF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048D4E0A7AC0970B7CFAE02B /* Pods-demlak-demlakUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davutdalmis.demlakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demlak;
+			};
+			name = Debug;
+		};
+		775A0DA82BB5CA0B007BF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633504C8736B539E8DC6C4A7 /* Pods-demlak-demlakUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davutdalmis.demlakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demlak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775A0D712BB5CA0A007BF088 /* Build configuration list for PBXProject "demlak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775A0D9E2BB5CA0B007BF088 /* Debug */,
+				775A0D9F2BB5CA0B007BF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775A0DA02BB5CA0B007BF088 /* Build configuration list for PBXNativeTarget "demlak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775A0DA12BB5CA0B007BF088 /* Debug */,
+				775A0DA22BB5CA0B007BF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775A0DA32BB5CA0B007BF088 /* Build configuration list for PBXNativeTarget "demlakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775A0DA42BB5CA0B007BF088 /* Debug */,
+				775A0DA52BB5CA0B007BF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775A0DA62BB5CA0B007BF088 /* Build configuration list for PBXNativeTarget "demlakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775A0DA72BB5CA0B007BF088 /* Debug */,
+				775A0DA82BB5CA0B007BF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775A0D6E2BB5CA0A007BF088 /* Project object */;
+}
